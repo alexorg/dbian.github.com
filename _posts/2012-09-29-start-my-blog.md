@@ -1,20 +1,31 @@
 ---
 layout: post
-title: "Start My Blog"
+title: "开始Blogging..."
 description: "this page is write from emacs,and posted by git"
-category: 
-tags: [footprint]
+category: footprint
+tags: []
 ---
 {% include JB/setup %}
-Preclude  
+Prelude  
 ----------
   
-准备开始动手写个博客，以后思考的时间越来越多，而且现在头脑里整天都在思考问题，感觉写点什么才好。  
+准备开始动手写个博客，认真写，不管是为了路人也好，为了写作能力也罢，总
+之要把这个博客变为一个巨大的Treasure。而且有一个原因应该是，github服务
+比较可靠，被大众称为程序员的facebook，而且这种个人博客应该是现阶段比较完美的方案。
 
 关于这个博客  
 ----------
   
-这个博客是利用github提供的免费服务git pages 来创建的，应该是无流量限制的，缺点就是门槛较高。本文用emacs24来编写，结合markdown-mode，highlight-tail-mode，写文章简直是种享受。。。  
+这个博客是利用github提供的免费服务git pages 来创建的，应该是无流量限制
+的，缺点就是入门的门槛较高，至少需要会使用以下工具：  
+*   git，比较知名的分布式版本控制工具
+*   markdown或者其他的jekyll可以支持的工具，这个很好学，而且以后的用处
+还是很多的
+*   jekyll相关工具，这一条可以参考wiki，需要细心看
+*   github的wiki，这个列在这里，只是为了说明，需要看官方wiki，而不是看
+网上的介绍，后者很容易误导人  
+
+。本文用emacs24来编写，结合markdown-mode，highlight-tail-mode，写文章简直是种享受。。。  
 关于Markdown  
 ----------
   
