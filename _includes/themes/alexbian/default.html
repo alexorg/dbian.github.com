@@ -10,9 +10,11 @@
    <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection" />
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
    <link rel="stylesheet" href="/css/960.css" type="text/css" media="screen, projection" />
+   <!-- Bootstrap -->
+   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container_12">
+  <div class="container">
     <div class="grid_40 prefix_2 title">
       <h1><a href="/">Alexbian's Treasure</a></h1>
     </div>
@@ -25,7 +27,10 @@
 	<a href="/pages/about.html">我的介绍</a>
       </div>
     </div>
-
+    <div class="row">
+      <div class="span4">...</div>
+      <div class="span8">...</div>
+    </div>
     <div class="grid_8 prefix_2 suffix_2 main">
       {{ content }}
     </div> 
@@ -46,6 +51,6 @@
   </div>
 
   
-
+  <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

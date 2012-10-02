@@ -15,8 +15,8 @@ a {
 }
 
 .content p a, .content ul a {
-  color: #000;
-	background: #AED180;
+  color: #058;
+  /*background: #AED180;*/
 }
 
 .content p a:hover, .content ul a:hover {
