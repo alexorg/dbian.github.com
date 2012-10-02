@@ -23,15 +23,17 @@ Prelude
 
 我这里只是说一下如何更改配色,按照上面的蓝色链接装好插件后，将以下lisp代码追加至~/.emacs文件中
 
+
 	;; tail
 	(require 'highlight-tail)
 	(highlight-tail-mode t)
 	(setq highlight-tail-colors
-		'(("black" . 0)
-		("#bc2525" . 25)
-		("black" . 66)))
+	'(("black" . 0)
+	("#bc2525" . 25)
+	("black" . 66)))
 	(highlight-tail-mode nil)
 	(highlight-tail-mode t)
+
 
 因为highlight-tail-mode 有一个默认的配色，所以更换其他颜色时，需要禁用在启用。关于颜色的说明，还是看英文比较好
 
