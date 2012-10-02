@@ -46,21 +46,22 @@ Prelude
 原作者ahei的演示用的emacs配色不太好看，我这里重新录制一份，如果显示太小，可以全屏观看
 
 <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
-<video controls="controls" width="800" height="500">
+<p>
+	<video controls="controls" width="800" height="500">
 	<source src="/multim/h-t-m.ogv" type="video/ogg" />
 	<object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="800" height="500">
-		<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
-		<param name="allowFullScreen" value="true" />
-		<param name="wmode" value="transparent" />
-		<param name="flashVars" value="config={'playlist':[{'url':'','autoPlay':false}]}" />
-		<span title="No video playback capabilities, please download the video below"></span>
+	<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+	<param name="allowFullScreen" value="true" />
+	<param name="wmode" value="transparent" />
+	<param name="flashVars" value="config={'playlist':[{'url':'','autoPlay':false}]}" />
+	<span title="No video playback capabilities, please download the video below"></span>
 	</object>
-</video>
-<p>
+	</video>
+	<p>
 	<strong>Download video:</strong> <a href="/multim/h-t-m.ogv">Ogg format</a>
+	</p>
+
 </p>
-
-
 
 
 
