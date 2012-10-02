@@ -15,7 +15,7 @@ a {
 }
 
 .content p a, .content ul a {
-  color: #058;
+  color: #0E4DF0;
   /*background: #AED180;*/
 }
 
@@ -88,7 +88,7 @@ p {
       margin-left: 5px;
   }
 .title {
-  margin: 20px 0;
+  margin: 40px 0 0 0;
 }
 
 .title h1 {
@@ -115,7 +115,9 @@ p {
     color: #E3DF8A; 
     margin-right: 20px
 }
-
+.info a:hover {
+    color: #92BF6F; 
+}
 .content {
 	background: #FFFEE6;
 }

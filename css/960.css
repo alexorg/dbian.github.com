@@ -4,9 +4,10 @@
 margin: 20px
 }
 .container .grid_1{width:60px}
-.container .grid_41  {width:400px;float:right;
+.container .grid_41  {
+    width:400px;float:right;
     margin-top: 100px;
-    margin-right: 30px }
+}
 .container .grid_40  {width:300px;float:left}
 .container .grid_8 {
     margin-left:0;
