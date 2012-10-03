@@ -2,7 +2,6 @@ body {
   background-color: white;
   font: 13.34px Verdana, helvetica, arial, clean, sans-serif;
   *font-size: small;
-  background: #222;
 }
 
 iframe { 
@@ -54,7 +53,6 @@ p {
 .recent {
   list-style-type: square;
   list-style-position: outside;
-  color: #FFFEE6;
   padding-left: 9px;
   font-size: 95%;
   text-align: left;
@@ -88,7 +86,7 @@ p {
       margin-left: 5px;
   }
 .title {
-  margin: 40px 0 0 0;
+  margin: 40px 0 0 40px;
 }
 
 .title h1 {
@@ -96,11 +94,11 @@ p {
 }
 
 .title h1 a {
-  color: #92BF6F;
+  color: #474449;
   font-weight: bold;
   margin-bottom: 20px;
-  font-size: 50px;
-  font-family: "Consolas", "Monaco", "Courier New", "Courier", monospace;
+  font-size: 45px;
+  font-family: Century Gothic, sans-serif;
 }
 
 .info {
@@ -112,15 +110,15 @@ p {
 }
 
 .info a {
-    color: #E3DF8A; 
+    color: #0DA4BC; 
     margin-right: 20px
 }
 .info a:hover {
     color: #92BF6F; 
 }
-.content {
+/*.content {
 	background: #FFFEE6;
-}
+}*/
 
 .white {
 	background: #FFFFFF;
@@ -147,12 +145,12 @@ h2{
 	font-size: 21px;
 	font-weight: normal;
 	text-align: left;
-	border-bottom: 2px solid #333;
+	border-bottom: 1px solid #0DA4BC;
 	margin: 10px 15px;
 }
 
 h2 a { 
-    color: #000; 
+    color: #0DA4BC; 
     font-weight: bold;
 
 }
