@@ -2,7 +2,9 @@
   <h2><a href="{{ page.url }}">
     {{ page.title }}
   </a></h2>
-  <div id="date">Posted {{ page.date | date_to_string }}</div>
+  <div id="date">- Posted at {{ page.date |date_to_string}}
+    <span>, tags:  {% assign tags_list = page.tags %}
+  {% include JB/tags_list %}</span></div>
   {{ content }}
   <div style="text-align: center;" >
     <script type="text/javascript" > 

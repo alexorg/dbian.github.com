@@ -82,7 +82,8 @@ p {
   width: 575px; }
 
 #date {
-  text-align: right;
+  text-align: left;
+  margin-left: 20px;
   color: #333;
   font-size: 80%; }
 
