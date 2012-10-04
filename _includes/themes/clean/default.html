@@ -11,43 +11,45 @@
    <link href="/css/pygments.css" rel="stylesheet" type="text/css" media="screen, projection" />
 </head>
 <body>
-  <div class="container">
-    <div class='head'>
-    <div class="grid_40 prefix_2 title">
-      <h1><a href="/"><img src="/img/blogLogo.png"></a></h1>
-    </div>
+  <div class="bd">
+    <div class="head">
+      <div class="logo">
+        <h1><a href="/"><img src="/img/blogLogo.png"></a></h1>
+        </div>
 
-    <div class="grid_41 suffix_2 info">
-      <nav>
-        <ul>
-	  <li><a href="/archive.html">存档</a></li>
-	  <li><a href="/tags.html">标签</a></li>
-	  <li><a href="/categories.html">分类</a></li>
-	  <li><a href="/pages/about.html">关于</a></li>
-        </ul>
-      </nav>
-    </div>
-    </div>
-    <div class="grid_8 prefix_2 suffix_2 main">
-      {{ content }}
-    </div> 
-    
-    <div class="grid_12 footer">
-      <div class="footer_links">
-        <a href="/pages/about.html">about</a>
-        <a class="rss" href="/atom.xml">rss</a>
-        <a href="http://twitter.com/bianhuadong">twitter</a>
-	<script type="text/javascript">
-	  var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-	  document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F35c98b91446682be3951fa8bd2db5636' type='text/javascript'%3E%3C/script%3E"));
-	</script>
+        <div class="nav">
+          <nav>
+            <ul>
+	      <li><a href="/archive.html">存档</a></li>
+	      <li><a href="/tags.html">标签</a></li>
+	      <li><a href="/categories.html">分类</a></li>
+	      <li><a href="/pages/about.html">关于</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
+
+      <div class="container">
+        <div class="grid_8 prefix_2 suffix_2 main">
+          {{ content }}
+        </div> 
+        
+        <div class="grid_12 footer">
+          <div class="footer_links">
+            <a href="/pages/about.html">about</a>
+            <a class="rss" href="/atom.xml">rss</a>
+            <a href="http://twitter.com/bianhuadong">twitter</a>
+	    <script type="text/javascript">
+	      var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	      document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F35c98b91446682be3951fa8bd2db5636' type='text/javascript'%3E%3C/script%3E"));
+	    </script>
+          </div>
+        </div>
+      </div>
+      
     </div>
 
-      
-  </div>
-
-  
-  <script src="/bootstrap/js/bootstrap.min.js"></script>
-</body>
+    
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
