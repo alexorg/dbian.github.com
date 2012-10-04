@@ -2,6 +2,8 @@ body {
   background-color: white;
   /*font: 13.34px Verdana, helvetica, arial, clean, sans-serif;
   *font-size: small;*/
+  font: Helvetica,arial,freesans,clean,sans-serif;
+  font-size:15px;
 }
 
 iframe { 
@@ -68,7 +70,12 @@ p {
   }
 
   .recent li a{ color: #8A003D;font-weight:bold } 
-  .recent a:hover { color: #FFE3A3; text-decoration: underline; background: none; }
+  .recent a:hover { color: #0DA4BC; text-decoration: underline; background: none; }
+/*.recent span a{
+    border-radius: 3px;
+    padding: 1px 4px 2px;
+    border:1px solid #777;
+}*/
 
   ul.posts span {
     font-family: Monaco, "Courier New", monospace;

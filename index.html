@@ -10,8 +10,8 @@ title: Just calm down, and listen.
   <ul class="recent">
     {% for post in site.posts limit: 5 %}
     <li><span>{{ post.date | date_to_string }}</span>
-      &raquo; <a href="{{ post.url }}">{{ post.title }}</a>{% assign tags_list = post.tags %}  
-      {% include JB/tags_list %} </li>
+      &raquo; <a href="{{ post.url }}">{{ post.title }}</a> 
+      </li>
     {% endfor %}
   </ul>
 </div>
