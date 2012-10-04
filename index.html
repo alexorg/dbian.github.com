@@ -4,10 +4,8 @@ title: Just calm down, and listen.
 ---
 {% include JB/setup %} 
 <div class="grid_2 omega">
-  <div class="navbar">
-    <div class="navbar-inner">
-      <a class="brand" href="#">Recent Posts</a>
-    </div>
+  <div class="lnav">
+      Recent Posts
   </div>
   <ul class="recent">
     {% for post in site.posts limit: 5 %}
@@ -21,10 +19,8 @@ title: Just calm down, and listen.
 {% assign post_list = site.posts %}
 
 <div id="post" class="grid_8 alpha content">
-  <div class="navbar">
-    <div class="navbar-inner">
-      <a class="brand" href="#">Newest Post</a>
-    </div>
+  <div class="lnav">
+    Newest Post
   </div>
   <h2><a href="{{ post_list[0].url }}">{{ post_list[0].title }}  </a></h2>
   <div id="date">Posted {{ post_list[0].date | date_to_string }}</div>

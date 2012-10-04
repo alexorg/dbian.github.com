@@ -124,7 +124,12 @@ p {
 /*.content {
 	background: #FFFEE6;
 }*/
-
+.lnav {
+    color: #777;
+    border-bottom: 1px solid #777;
+    margin: 10px;
+    padding: 10px 10px 2px 0px;
+}
 .white {
 	background: #FFFFFF;
 }
