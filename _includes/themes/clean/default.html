@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>Alexbian's Treasure &raquo; {{ page.title }}</title>
+   <title>Alexbian's Treasure</title>
    <meta name="author" content="Alexbian" />
    <link href="http://feeds2.feedburner.com/git-ready" rel="alternate" title="RSS" type="application/rss+xml" />
    <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen, projection" />
@@ -16,17 +16,21 @@
 </head>
 <body>
   <div class="container">
+    <div class='head'>
     <div class="grid_40 prefix_2 title">
-      <h1><a href="/">Alexbian's Treasure</a></h1>
+      <h1><a href="/"><img src="/img/blogLogo.png"></a></h1>
     </div>
 
     <div class="grid_41 suffix_2 info">
-      <div class="cat">
-	<a href="/archive.html">存档</a>
-	<a href="/tags.html">标签</a>
-	<a href="/categories.html">分类</a>
-	<a href="/pages/about.html">我的介绍</a>
-      </div>
+      <nav>
+        <ul>
+	  <li><a href="/archive.html">存档</a></li>
+	  <li><a href="/tags.html">标签</a></li>
+	  <li><a href="/categories.html">分类</a></li>
+	  <li><a href="/pages/about.html">我的介绍</a></li>
+        </ul>
+      </nav>
+    </div>
     </div>
     <div class="grid_8 prefix_2 suffix_2 main">
       {{ content }}
