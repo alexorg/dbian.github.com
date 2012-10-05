@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "使用bitbucket来创建静态网站"
+title: "使用Bitbucket来免费托管静态网站"
 description: ""
 category: geek
 tags: [web]
@@ -39,7 +39,7 @@ tags: [web]
 大帮助的，我的一些不开源的项目都是免费托管到它上面的。
 
 不过缺点也是显而易见的，它不提供在线的jekyll，python,php等在线服务，所
-以只能事先在本地写好一个静态网站，然后用git传上去。不过这个缺点可以用
+以只能事先在本地生成或者写好一个静态网站，然后用git传上去。不过这个缺点可以用
 写脚本自动的完成的方法克服掉。将网站的源码独立出来托管。
 
 不管怎么样，还是感谢github，bitbucket等网站提供这么优质的服务，希望大
