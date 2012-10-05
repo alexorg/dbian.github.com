@@ -1,1 +1,74 @@
-<META HTTP-EQUIV=REFRESH CONTENT="0;URL=http://bian.bitbucket.org">
+---
+layout: default
+title: Just calm down, and listen.
+---
+{% include JB/setup %} 
+<div class="grid_2 omega">
+  <div class="lnav">
+      Recent Posts
+  </div>
+  <ul class="recent">
+    {% for post in site.posts limit: 5 %}
+    <li><span>{{ post.date | date_to_string }}</span>
+      / <a href="{{ post.url }}">{{ post.title }}</a> 
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% assign post_list = site.posts %}
+
+<div id="post" class="grid_8 alpha content">
+  <div class="lnav">
+    Newest Post
+  </div>
+  <h2><a href="{{ post_list[0].url }}">{{ post_list[0].title }}  </a></h2>
+  <div id="date">- Posted at {{ post_list[0].date |date_to_string}}
+    <span>, tags:  {% assign tags_list = post_list[0].tags %}
+  {% include JB/tags_list %}</span></div>
+  {{ post_list[0].content }}
+
+ <!-- Baidu Button BEGIN -->
+  <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+    <span class="bds_more">分享到：</span>
+    <a class="bds_tsina"></a>
+    <a class="bds_tqq"></a>
+    <a class="bds_renren"></a>
+    <a class="bds_qzone"></a>
+    <a class="bds_douban"></a>
+    <a class="bds_tieba"></a>
+    <a class="bds_fbook"></a>
+    <a class="bds_twi"></a>
+    <a class="bds_xg"></a>
+    <a class="bds_ff"></a>
+    <a class="bds_kaixin001"></a>
+    <a class="bds_hi"></a>
+    <a class="shareCount"></a>
+  </div>
+  <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6473487" ></script>
+  <script type="text/javascript" id="bdshell_js"></script>
+  <script type="text/javascript">
+    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+  </script>
+  <!-- Baidu Button END -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'dbian'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+
+
+
+
