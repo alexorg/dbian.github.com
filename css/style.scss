@@ -12,19 +12,33 @@ a:visited {
 }
 //2
 body {
-  background-color: white;
   /*font: 13.34px Verdana, helvetica, arial, clean, sans-serif;
   *font-size: small;*/
   font-family: Georgia, serif; 
   font-size:15px;
   line-height: 150%;
   color: #333;
-  background: #F0F0F0;
+  background-color:#F2F1ED;
+  //background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.498039) 0%, #F2F1ED 100%);
   .bd {
       margin:0 auto;
       width:800px;
   }
-  
+  .head {
+
+      
+  }
+  .content {
+
+  }
+
+}
+
+.boxup {
+    float:none;
+    width:100%;
+    height: 550px;
+    background-image: -webkit-linear-gradient(top, white 0%, #F2F1ED 100%);
 }
 
 iframe { 
