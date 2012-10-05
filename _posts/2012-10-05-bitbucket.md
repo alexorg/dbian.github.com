@@ -8,11 +8,18 @@ tags: [web]
 {% include JB/setup %}
 ## 前言
 今天在想，github作为源码托管网站提供了静态网站的托管服务，那同样是源码
-托管的bitbucket是不是也有同样的服务呢，翻了若干遍的bitbucket的在线文档，
-终于在一个小角落里，看到了一个[website page host](https://confluence.atlassian.com/display/BITBUCKET/Publishing+a+Website+on+Bitbucket)的服务。
+托管的bitbucket是不是也有同样的服务呢？而且后者在免费容量上很是慷慨，
+我有很多项目都是托管在它上面，另外bitbucket还支持私有仓库，这也是个很
+吸引人的特性，你建好了网站别人便fork不了了。
+
+在翻了若干遍的bitbucket的在线文档之后，
+终于在一个小角落里，看到了一个
+[website page host](https://confluence.atlassian.com/display/BITBUCKET/Publishing+a+Website+on+Bitbucket)
+的服务，随后我自己也建了一个主页，这里就不秀了。
 ## 如何使用
 这个跟github流程差不多，我挑主要的说一下就行，不懂的可以在下面留言，我
 们一起讨论。
+
 1. 申请[bitbucket](https://bitbucket.org/)帐号。
 2. 在个人帐号页面上绑定ssh密钥，用于git使用ssh传输文件。或者跳过这步，
 使用bitbucket特有的https传输，不过这个稍显麻烦之处在于每次都要输入帐号和密
@@ -29,7 +36,8 @@ tags: [web]
 ## 评价
 比起github的300M的空间，bitbucket提供的慷慨的1Gb的容量，而且仓库可以设
 为私有的，这意味着别人不能fork你的网站或者repo，对隐私敏感的人是有很
-大帮助的，我的一些不开源的项目都是免费托管到它上面的。   
+大帮助的，我的一些不开源的项目都是免费托管到它上面的。
+
 不过缺点也是显而易见的，它不提供在线的jekyll，python,php等在线服务，所
 以只能事先在本地写好一个静态网站，然后用git传上去。不过这个缺点可以用
 写脚本自动的完成的方法克服掉。将网站的源码独立出来托管。
