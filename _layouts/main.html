@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alex bian's treasure</title>
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="/css/ie.css" type="text/css" />
+    <link rel="stylesheet" href="/css/print.css" type="text/css" />
+  </head>
+  <body>
+    <div id="headwrapper">  
+      <div id="header">
+        <h1><a href="/"> Alex bian's treasure</a></h1>
+        <h2>"Watch and Learn"</h2>
+      </div>
+
+    </div>
+    <!-- title bar -->
+    <div id="bdwrapper">
+      <div id="sidebar">
+        <div id="nav">
+            <ul>
+	      <li><a href="/archive.html">文章</a></li>
+	      <li><a href="/tags.html">标签</a></li>
+	      <li><a href="/categories.html">分类</a></li>
+	      <li><a href="/pages/about.html">关于</a></li>
+            </ul>
+        </div>
+        <div id="recent">
+          <p>Previous Posts</p>
+          <ul>
+            {% for post in site.posts limit: 5 %}
+            <li><span>{{ post.date | date_to_string }}</span>
+              / <a href="{{ post.url }}">{{ post.title }}</a> 
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        {{ content }}     
+      </div>
+    </div>
+    <div id="footer">
+      <center><p> © 2012 Alex-bian, All rights reserved. Contact: bhd.shu@gmail.com </p></center>
+    </div>
+
+  </body>
+</html>

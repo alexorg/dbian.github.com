@@ -1,20 +1,9 @@
 ---
-layout: default
-title: Just calm down, and listen.
+layout: main
+title: Watch and Learn
 ---
-{% include JB/setup %} 
-<div class="grid_2 omega">
-  <div class="lnav">
-      Recent Posts
-  </div>
-  <ul class="recent">
-    {% for post in site.posts limit: 5 %}
-    <li><span>{{ post.date | date_to_string }}</span>
-      / <a href="{{ post.url }}">{{ post.title }}</a> 
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% include JB/setup %}
+
 
 {% assign post_list = site.posts %}
 
