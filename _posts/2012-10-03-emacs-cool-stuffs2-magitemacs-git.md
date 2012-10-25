@@ -45,22 +45,12 @@ __最后附上一张magit快捷键列表__
 <p>
 
 <style type="text/css">
-
-  html {font-family: Times, serif; font-size: 90%;}
   .preamble {font-variant: italic; margin-bottom:40px;}
   .title {text-align: center;}
-
-  h9 {
-	  margin-bottom:1px;
-      font-variant: small-caps;
-	  font-size:1.5em;      
-	  text-align:center;
-  }
 
   table {border: 0px solid transparent; width:100%;}
   td {border-collapse:collapse; border: 1px solid #fff;}
   td, th {vertical-align: top;}
-  td.command, td.description, td.notes {background-color: #F0E4E4;}
   td.command, td.description {white-space: nowrap;}
   td.command {font-family:monospace; font-size: 130%; font-weight: 600; width:10em;}
   td.notes {color: #666; font-variant: italic;}

@@ -23,9 +23,10 @@ body {
     background-color: #303030;
     #container{
         @include container;
-        #sidebar {
+        .sidebar {
             ul.none {
                 list-style-type: none;
+                margin-bottom:0;
             }
             a{
                 font-size:13px;
@@ -33,14 +34,19 @@ body {
             }
             @include column(2); 
             text-align:right;
-            background-color: #505050;
-            padding:20px;
+
+            margin:0 20px;            
             //padding-right:30px;
             #nav, #recent{
-                //margin:20px 20px 20px 0;
+                padding: 10px 0 10px 0;
+                margin-bottom: 10px;
+                background-color: #505050;
             }
             #recent{
                 
+            }
+            #ad{
+                //height:200px;
             }
         }
         #content {
@@ -48,6 +54,9 @@ body {
             //background-color: #ccc;
             @include column(7, true); 
             padding:20px;
+            .date{
+                text-align:right;
+            }
         } 
     }
 }
