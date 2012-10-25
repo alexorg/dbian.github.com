@@ -16,37 +16,63 @@
 //
  
  
-#bdwrapper {
-    @include container;
-    background-color: #ccc;
-    #sidebar {
-        @include column(3); 
-        text-align:right;
-        background-color: #505050;
-        margin-right:30px;
-        #nav, #recent{
-            margin:20px 20px 20px 0;
-        }
-        #recent{
+body {
+    @include blueprint-typography(true);
+    @include blueprint-interaction;
 
-        }
-    }
-    #content {
-        @include column(6, true); } 
-}
-body{
     background-color: #303030;
+    #container{
+        @include container;
+        #sidebar {
+            ul.none {
+                list-style-type: none;
+            }
+            a{
+                font-size:13px;
+                text-decoration: none;
+            }
+            @include column(2); 
+            text-align:right;
+            background-color: #505050;
+            padding:20px;
+            //padding-right:30px;
+            #nav, #recent{
+                //margin:20px 20px 20px 0;
+            }
+            #recent{
+                
+            }
+        }
+        #content {
+            background-color: #505050;
+            //background-color: #ccc;
+            @include column(7, true); 
+            padding:20px;
+        } 
+    }
 }
-#headwrapper, #footer{
-    color:white;
+.alt {
+  //color: white;
+  font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
+  font-style: italic;
+  font-weight: normal;
+}
+#headwrapper, #header, #footer{
+    //color:white;
 }
 #headwrapper{
     width:900px;
     margin: 0 auto;
     height:150px;
     #header{
-        
+        a{
+            text-decoration: none;
+        }
         
         padding:20px;
     }
+}
+
+#footer{
+    margin:20px;
 }
