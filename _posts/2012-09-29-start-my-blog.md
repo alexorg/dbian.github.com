@@ -2,8 +2,8 @@
 layout: post
 title: "开始Blogging..."
 description: "this page is write from emacs,and posted by git"
-category: footprint
-tags: []
+category: 
+tags: [thinkings]
 ---
 {% include JB/setup %}
 Prelude  
