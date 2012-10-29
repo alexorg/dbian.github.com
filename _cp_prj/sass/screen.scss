@@ -20,7 +20,7 @@ body {
     @include blueprint-typography(true);
     @include blueprint-interaction;
 
-    background-color: #303030;
+    background:#303030 url(/img/skeleton.png) no-repeat 50% 0;
     #container{
         @include container;
         .sidebar {
@@ -40,7 +40,7 @@ body {
             #nav, #recent{
                 padding: 10px 0 10px 0;
                 margin-bottom: 10px;
-                background-color: #505050;
+                background: url(/img/bg.png);
             }
             #translatepanel{
                 text-align:center;
@@ -54,7 +54,9 @@ body {
             }
         }
         #content {
-            background-color: #505050;
+            //background-color: #505050;
+            background: url(/img/bg.png);
+                
             //background-color: #ccc;
             @include column(7, true); 
             padding:20px;
@@ -77,6 +79,8 @@ body {
     width:900px;
     margin: 0 auto;
     height:150px;
+    padding-top:300px;
+
     #header{
         a{
             text-decoration: none;
