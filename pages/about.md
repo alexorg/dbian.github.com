@@ -19,13 +19,15 @@ male，living in Shanghai, borned in 1989。
 * 邮箱: bhd.shu@gmail.com
 * 
 
-### 捐献
+### 捐献地址
 
-谢谢！请发邮件告知
+十分感谢！如若方便，请发邮件告知
 
   BitCoin： 166FfTLFcioLvPq2VdfyrS7dxk9KDFsEXB
 
-  RedCoin： Rjc7GrPYG67X65WVvE4phRHWRrDQjmLKh6
+  RedCoin： RbDdAsvBoATmVeK49bYtqvyXMEnd3y1o72
 
   MegaCoin：MMsd6KnFoY8ARzqA5YDqy7LL19U3MVokbh
+  
+  TagCoin: TYQw8Yb19hALRBwo6Q6yepmsyUNatwRJwD
 
