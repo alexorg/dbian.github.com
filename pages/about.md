@@ -4,7 +4,6 @@ title: "About me"
 description: ""
 ---
 {% include JB/setup %}
-### About me
 
 Male,<br>
 Living in Shanghai,<br>
