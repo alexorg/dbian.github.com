@@ -27,9 +27,9 @@ Borned in 1989.
 
   BitCoin: 166FfTLFcioLvPq2VdfyrS7dxk9KDFsEXB
 
-  _RedCoin_: RbDdAsvBoATmVeK49bYtqvyXMEnd3y1o72
+  __RedCoin__: RbDdAsvBoATmVeK49bYtqvyXMEnd3y1o72
 
-  _MegaCoin_: MMsd6KnFoY8ARzqA5YDqy7LL19U3MVokbh
+  __MegaCoin__: MMsd6KnFoY8ARzqA5YDqy7LL19U3MVokbh
   
   TagCoin: TYQw8Yb19hALRBwo6Q6yepmsyUNatwRJwD
 
