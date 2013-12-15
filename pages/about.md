@@ -35,12 +35,12 @@ Borned in 1989.<br>
 </tr>
 
 <tr>
-<td>__RedCoin__</td>
+<td>RedCoin</td>
 <td>RbDdAsvBoATmVeK49bYtqvyXMEnd3y1o72</td>
 </tr>
 
 <tr>
-<td>__MegaCoin__</td>
+<td>MegaCoin</td>
 <td>MMsd6KnFoY8ARzqA5YDqy7LL19U3MVokbh</td>
 </tr>
 
