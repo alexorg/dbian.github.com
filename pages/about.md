@@ -6,13 +6,13 @@ description: ""
 {% include JB/setup %}
 ### About me
 
-Male,
-Living in Shanghai,
-Borned in 1989.
-关注c++发展，热爱python。喜欢ArchLinux。
-关注网络应用开发([Push Sudoku](http://sudo-alexbian.rhcloud.com))。
-专注于软件开发效率的提高。
-追求编写高质量代码。
+Male,<br>
+Living in Shanghai,<br>
+Borned in 1989.<br>
+关注c++发展，热爱python。喜欢ArchLinux。<br>
+关注网络应用开发([Push Sudoku](http://sudo-alexbian.rhcloud.com))。<br>
+专注于软件开发效率的提高。<br>
+追求编写高质量代码。<br>
 
 ### 关于这个网站
 
@@ -25,11 +25,29 @@ Borned in 1989.
 
 ### 我的虚拟货币捐献地址
 
-  BitCoin: 166FfTLFcioLvPq2VdfyrS7dxk9KDFsEXB
+<table>
+<tbody>
 
-  __RedCoin__: RbDdAsvBoATmVeK49bYtqvyXMEnd3y1o72
+<tr>
+<td>BitCoin</td>
+<td>166FfTLFcioLvPq2VdfyrS7dxk9KDFsEXB</td>
 
-  __MegaCoin__: MMsd6KnFoY8ARzqA5YDqy7LL19U3MVokbh
-  
-  TagCoin: TYQw8Yb19hALRBwo6Q6yepmsyUNatwRJwD
+</tr>
 
+<tr>
+<td>__RedCoin__</td>
+<td>RbDdAsvBoATmVeK49bYtqvyXMEnd3y1o72</td>
+</tr>
+
+<tr>
+<td>__MegaCoin__</td>
+<td>MMsd6KnFoY8ARzqA5YDqy7LL19U3MVokbh</td>
+</tr>
+
+<tr>
+<td>TagCoin</td>
+<td>TYQw8Yb19hALRBwo6Q6yepmsyUNatwRJwD</td>
+</tr>
+
+</tbody>
+</table>
